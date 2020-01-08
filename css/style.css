@@ -1,0 +1,201 @@
+body{
+    font-family: 'Open-sans', sans-serif;
+}
+
+/* nav */
+
+.customNav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+    /* opacity: .9; */
+    background-size: cover;
+    z-index: 10;
+    height: 100px;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 125px;
+    margin-left: 8%;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .navbar-brand {
+      color: #7C7C7C !important;
+      font-size: 18;
+  }
+
+  .nav-link{
+      color: black !important;
+      
+  }
+
+  /* jumbo */
+
+  .jumbotron1{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      /* height: 630px; */
+      background: url("../images/bridge@2x.png");
+      background-size: cover;
+  }
+
+  .jumboText{
+      /* position: relative; */
+      /* top: 100px; */
+      padding: 25px;
+      color: azure;
+      text-align: center;
+  }
+
+  .name {
+      font-size: 36;
+      font-weight: 800;
+  }
+
+
+  #profilePic{
+        width: 456px;
+        height: 560px;
+        object-fit: contain;
+        padding: 25px;
+  }
+
+  #showcase{
+    padding: 10px;
+}
+.headerContain{
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.showcaseHeader{
+    /* font-family: OpenSans; */
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #004a5c;
+}
+
+/* cards */
+.aolContain{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.aolcard{
+    width: 25rem;
+    margin-right: 25px;
+}
+
+.cardtextContain1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 278px;
+    width: 338px;
+    margin-left: 25px;
+    position: relative;
+    top: 45px;
+}
+
+.card{
+    border-radius: 12px;
+    box-shadow: 3px 4px 6px 0 rgba(0, 0, 0, 0.16);
+    border: none;
+}
+.card-img-top{
+    object-fit: contain;
+}
+
+.cardHeader{
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+.showText1{
+    width: 336px;
+    height: 116px;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.divide{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 55%;
+    height: 0;
+    border: solid 1px #004a5c;
+}
+
+.cardtextContain2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 278px;
+    width: 338px;
+    margin-left: 25px;
+    position: relative;
+    top: 45px;
+}
+.cardtextContain5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 380px;
+    width: 338px;
+    margin-left: 50px;
+}
+
+.showText5{
+    width:425px;
+    opacity: 0.5;
+    font-family: 'OpenSans;' sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+#footer{
+
+    
+}
+
